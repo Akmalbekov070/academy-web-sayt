@@ -6,7 +6,7 @@ import { RootLayout } from './Layouts/RootLayout';
 
 // Pages
 import { Home } from './Pages/Home/Home';
-import Course from './Components/course_regitr/course';
+import GoogleMap from './Components/GoogleMap/GoogleMap';
 
 function App() {
 	const routes = createBrowserRouter([
