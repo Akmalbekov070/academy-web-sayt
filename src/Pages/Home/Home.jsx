@@ -1,6 +1,7 @@
 import img from '../../Assets/Images/3d.png';
 import GoogleMap from '../../Components/GoogleMap/GoogleMap';
 import AboutCard from '../../Components/AboutCard/AboutCard';
+import { AboutPage } from '../../Components/AboutCard/AboutPage';
 export const Home = () => {
 	return (
 		///justify o'chiriladi
@@ -28,7 +29,9 @@ export const Home = () => {
 			</div>
 			{/* googlMap =====  page*/}
 			<div className='relative'>
-				<AboutCard />
+				<AboutPage />
+			</div>
+			<div className='relative'>
 				<GoogleMap />
 			</div>
 		</>

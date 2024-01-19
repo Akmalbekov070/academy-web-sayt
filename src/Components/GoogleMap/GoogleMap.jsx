@@ -1,6 +1,6 @@
 import React from 'react';
 import bg from '../../Assets/Images/home-background.jpg';
-import logo from '../../Assets/Images/Rectangle-left.png';
+import logo from '../../Assets/Images/Rectangle-right.png';
 import LeftMap from './LeftMap';
 import RightMap from './RightMap';
 
@@ -14,7 +14,7 @@ const GoogleMap = () => {
 			</div>
 			{/* logo */}
 			<img
-				className='w-full h-[100vh] absolute bottom-0 right-[26%] max-sm:right-[41.5%] overflow-y-hidden '
+				className='w-full h-[100vh] absolute bottom-0 right-[10%] max-sm:right-[41.5%] overflow-y-hidden '
 				src={logo}
 				alt='Logo page'
 			/>

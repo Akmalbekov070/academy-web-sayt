@@ -6,7 +6,7 @@ import { Menu, MenuHandler, MenuList, MenuItem, Button } from '@material-tailwin
 export const Header = () => {
 	return (
 		//boshlanish qismi
-		<div className='w-full h-32 backdrop-blur-sm px-2 fixed top-0 flex justify-between items-center z-50 md:px-20 '>
+		<div className='w-full h-32 backdrop-blur-lg px-2 fixed top-0 flex justify-between items-center z-50 md:px-20 '>
 			{/* header chap qismi */}
 			<div className='w-full flex items-center gap-2'>
 				<img src={Logo} alt='' className='object-cover w-[250px]  h-28' />
