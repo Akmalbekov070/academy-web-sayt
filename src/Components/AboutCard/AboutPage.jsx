@@ -17,7 +17,7 @@ export const AboutPage = () => {
 				src={logo}
 				alt='Logo page'
 			/>
-			<div className='absolute top-0 left-0 text-white'>
+			<div className='absolute top-0 left-[-28px] text-white'>
 				<AboutCard />
 			</div>
 		</div>

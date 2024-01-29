@@ -45,8 +45,8 @@ export const Header = () => {
 							</Button>
 						</MenuHandler>
 						<MenuList className='z-50 bg-transparent backdrop-blur-lg  text-white '>
-							<MenuItem className='hover:bg-gray-400'>Ro‘yxatdan o‘tish</MenuItem>
-							<MenuItem className='flex items-center hover:bg-gray-400'>
+							<MenuItem className='hover:bg-gray-400 py-3'>Ro‘yxatdan o‘tish</MenuItem>
+							<MenuItem className='flex items-center hover:bg-gray-400 py-3'>
 								<PiPhoneCall size='18' />
 								+998913138989
 							</MenuItem>

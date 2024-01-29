@@ -41,32 +41,32 @@ const Footer = () => {
 		// 		</div>
 		// 	</div>
 		// </div>
-		<div className='w-full h-16 bg-slate-600 items-center text-white'>
+		<div className='w-full h-32 bg-slate-600 items-center text-white'>
 			<div className='w-full flex flex-col '>
-				<div className='flex items-center justify-center pt-3 gap-6'>
+				<div className='flex items-center justify-center pt-8 gap-6'>
 					<a href=''>
-						<IoLogoInstagram size='13' />{' '}
+						<IoLogoInstagram size='25' />{' '}
 					</a>{' '}
 					<a href=''>
-						<FaTelegramPlane size='13' />{' '}
+						<FaTelegramPlane size='24' />{' '}
 					</a>{' '}
 					<a href=''>
-						<CiFacebook size='13' />{' '}
+						<CiFacebook size='24' />{' '}
 					</a>{' '}
 					<a href=''>
-						<FiYoutube size='13' />{' '}
+						<FiYoutube size='24' />{' '}
 					</a>
 					<a href=''>
-						<FiTwitter size='12' />
+						<FiTwitter size='24' />
 					</a>
 					<a href=''>
-						<FaGoogle size='12' />
+						<FaGoogle size='24' />
 					</a>
 				</div>
 				<div className='w-full h-[1px] bg-gray-500 mt-3'></div>
-				<div className='w-full  flex items-center justify-center pt-2'>
-					<TbCircleLetterC size='9' />
-					<div className='text-white text-[8px] '>2024 JoyLinks IT Academy. All rights reserved</div>
+				<div className='w-full  flex items-center justify-center pt-4	'>
+					<TbCircleLetterC size='23' />
+					<div className='text-white text-[15px] '>2024 JoyLinks IT Academy. All rights reserved</div>
 				</div>
 			</div>
 		</div>
