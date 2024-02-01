@@ -4,7 +4,7 @@ import frontent from '../../Assets/Images/frontent.png';
 const AboutCard = () => {
 	return (
 		<div className='w-full flex flex-col items-center justify-center xl:px-16 max-xl:px-0'>
-			<div className='w-full text-4xl py-12 px-8'>
+			<div className='w-full text-4xl py-10 px-8'>
 				<h1>Bizning Kurslarimiz</h1>
 			</div>
 			<div className='w-full flex items-center justify-center'>
@@ -74,7 +74,7 @@ const AboutCard = () => {
 							</div>
 						</div>
 					</div>
-					<div className='w-full flex gap-5  flex-wrap'>
+					<div className='w-full flex gap-5  flex-wrap py-4'>
 						<div className='xl:w-[440px] max-md:w-[400px] w-[700px] h-[250px] border-2 backdrop-blur-xl border-blue-950 rounded-lg flex gap-2'>
 							<div className='w-full flex items-center px-4'>
 								<img className='w-[100%] object-cover' max- src={frontent} alt='frontent course png' />
